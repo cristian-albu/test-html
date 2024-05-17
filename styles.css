@@ -19,6 +19,7 @@ body {
 
 .div1 {
     width: 35%;
+    min-height: 200px;
 }
 
 @media only screen and (max-width: 400px) {
