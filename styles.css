@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    width: 35%;
+}
+
+@media only screen and (max-width: 400px) {
+    .div1 {
+        width: 100%;
+    }
+}
+
+.div2 {
+    width: 65%;
+}
